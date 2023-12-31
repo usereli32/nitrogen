@@ -39,7 +39,7 @@ jobs:
         run: wget https://github.com/Tenclea/ReYANG/releases/download/v3.3.4/ReYANG-Linux.zip
 
       - name: unzip
-        run: unzip ReYANG-Linux.zip -o
+        run: unzip -o ReYANG-Linux.zip
 
       - name: remove config
         run: rm config.yml
