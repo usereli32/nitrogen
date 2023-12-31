@@ -45,7 +45,7 @@ jobs:
         run: rm config.yml
 
       - name: download config
-        run: https://raw.githubusercontent.com/usereli32/nitrogen/main/config.yml?token=GHSAT0AAAAAACLVWYFYS6SRWNRXS6GC4QCEZMR42MA
+        run: wget https://raw.githubusercontent.com/usereli32/nitrogen/main/config.yml
 
       - name: make it exec
         run: chmod +x ReYANG-linux
