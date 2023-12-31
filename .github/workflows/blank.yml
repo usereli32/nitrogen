@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run update
-        run: sudo apt upate
+        run: sudo apt update
 
       - name: install needed package
         run: sudo apt install unzip wget -y
